@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tower Blocks</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <meta content="Game" name="description">
+    <meta property="og:title" content="Tower Blocks" />
+    <meta property="og:url" content="ProzT.is-a.dev/TowerBlocks" />
+    <meta property="og:image" content="./circle.png" />
+    <link rel="shortcut icon" type="image/png" href="https://prozt.is-a.dev/favicon.png">
+</head>
+
+<body>
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+
+    <div id="container">
+        <div id="game"></div>
+        <div id="score">0</div>
+        <div id="instructions">Click (or press the spacebar) to place the block</div>
+        <div class="game-over">
+            <h2>Game Over</h2>
+            <p>You did great, you're the best.</p>
+            <p>Click or spacebar to start again</p>
+        </div>
+        <div class="game-ready">
+            <div id="start-button">Start</div>
+            <div></div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r83/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src="./scripts/scripts.js"></script>
+</body>
+
+</html>
